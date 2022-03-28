@@ -1,0 +1,21 @@
+{
+  "verbose": true,
+  "debug": true,
+  "exec": "ts-node  ./main.ts",
+  "ignore": [
+    "node_modules",
+    "./test",
+    "**/*.d.ts",
+    "*.test.ts",
+    "*.spec.ts",
+    "fixtures/*",
+    "test/**/*",
+    "docs/*"
+  ],
+  "events": {
+    "restart": ""
+  },
+  "watch": ["./**"],
+  "ext": "ts js",
+  "inspect": true
+}
