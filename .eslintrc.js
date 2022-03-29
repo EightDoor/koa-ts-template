@@ -27,5 +27,6 @@ module.exports = {
     'import/extensions': 'off',
     'import/no-unused-modules': 'off',
     'import/prefer-default-export': 'off',
+    'import/no-extraneous-dependencies': 'off',
   },
 };

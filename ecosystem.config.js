@@ -3,8 +3,10 @@ module.exports = {
     {
       name: 'koa-ts-example',
       script: './dist/main.js',
+      interpreter_args: '-r tsconfig-paths/register',
       watch: './dist/',
-      instances: 'max',
+      cwd: './',
+      instances: 1,
       exec_mode: 'cluster',
       ignore_watch: ['[/\\]./', 'node_modules'],
       log_date_format: 'YYYY-MM-DD HH:mm:ss',
