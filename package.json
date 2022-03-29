@@ -4,9 +4,9 @@
   "description": "koa-ts 基础项目模板",
   "main": "dist/main.js",
   "scripts": {
-    "dev": "nodemon main.ts",
+    "dev": "nodemon nodemon.json",
     "build": "rimraf ./dist && tsc",
-    "start": "pm2 start ecosystem.config.js --node-args=\"-r tsconfig-paths/register\"",
+    "start": "pm2 start ecosystem.config.js",
     "stop": "pm2 stop koa-ts-example",
     "prettier": "npx prettier --write .",
     "eslint": "eslint ./src/**/*",

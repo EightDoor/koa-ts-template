@@ -1,6 +1,6 @@
 import * as winston from 'winston';
-import Utils from '@/utils/index';
 import * as DailyRotateFile from 'winston-daily-rotate-file';
+import Utils from './index';
 
 const { format, transports } = winston;
 const customFormat = format.combine(
