@@ -1,5 +1,5 @@
 {
-  "include": ["./src/**/*", "./main.ts"],
+  "include": ["./src/**/*", "./main.ts", "./build/**/*"],
   "exclude": ["dist", "log", "node_modules"],
   "compilerOptions": {
     "baseUrl": "./",
